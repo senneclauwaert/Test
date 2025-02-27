@@ -1,0 +1,18 @@
+[0.355s] Invoking command in '/ros2_ws/build/my_ros2_package': PYTHONPATH=/ros2_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/my_ros2_package/build --no-deps symlink_data
+[0.506s] running develop
+[0.572s] running egg_info
+[0.572s] writing my_ros2_package.egg-info/PKG-INFO
+[0.572s] writing dependency_links to my_ros2_package.egg-info/dependency_links.txt
+[0.572s] writing entry points to my_ros2_package.egg-info/entry_points.txt
+[0.572s] writing requirements to my_ros2_package.egg-info/requires.txt
+[0.572s] writing top-level names to my_ros2_package.egg-info/top_level.txt
+[0.573s] reading manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[0.574s] writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[0.575s] running build_ext
+[0.575s] Creating /ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my-ros2-package.egg-link (link to .)
+[0.576s] Installing navigation_node script to /ros2_ws/install/my_ros2_package/lib/my_ros2_package
+[0.576s] Installing segmentation_node script to /ros2_ws/install/my_ros2_package/lib/my_ros2_package
+[0.576s] 
+[0.576s] Installed /ros2_ws/build/my_ros2_package
+[0.576s] running symlink_data
+[0.594s] Invoked command in '/ros2_ws/build/my_ros2_package' returned '0': PYTHONPATH=/ros2_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/build/my_ros2_package/build --no-deps symlink_data

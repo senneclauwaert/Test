@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating my_ros2_package.egg-info
+writing my_ros2_package.egg-info/PKG-INFO
+writing dependency_links to my_ros2_package.egg-info/dependency_links.txt
+writing entry points to my_ros2_package.egg-info/entry_points.txt
+writing requirements to my_ros2_package.egg-info/requires.txt
+writing top-level names to my_ros2_package.egg-info/top_level.txt
+writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+reading manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my-ros2-package.egg-link (link to .)
+Installing my_node_exe script to /ros2_ws/install/my_ros2_package/lib/my_ros2_package
+
+Installed /ros2_ws/build/my_ros2_package
+running symlink_data
+creating /ros2_ws/install/my_ros2_package/share/ament_index
+creating /ros2_ws/install/my_ros2_package/share/ament_index/resource_index
+creating /ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/my_ros2_package/resource/my_ros2_package -> /ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/build/my_ros2_package/package.xml -> /ros2_ws/install/my_ros2_package/share/my_ros2_package

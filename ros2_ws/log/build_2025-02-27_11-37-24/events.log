@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.000552] (my_ros2_package) JobQueued: {'identifier': 'my_ros2_package', 'dependencies': OrderedDict()}
+[0.000600] (my_ros2_package) JobStarted: {'identifier': 'my_ros2_package'}
+[0.099782] (-) TimerEvent: {}
+[0.200038] (-) TimerEvent: {}
+[0.300274] (-) TimerEvent: {}
+[0.334066] (my_ros2_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ros2_ws/build/my_ros2_package/build', '--no-deps', 'symlink_data'], 'cwd': '/ros2_ws/build/my_ros2_package', 'env': {'HOSTNAME': 'Senne-Laptop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros2_ws/build/my_ros2_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.400376] (-) TimerEvent: {}
+[0.478199] (my_ros2_package) StdoutLine: {'line': b'running develop\n'}
+[0.500468] (-) TimerEvent: {}
+[0.545540] (my_ros2_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.545710] (my_ros2_package) StdoutLine: {'line': b'writing my_ros2_package.egg-info/PKG-INFO\n'}
+[0.545823] (my_ros2_package) StdoutLine: {'line': b'writing dependency_links to my_ros2_package.egg-info/dependency_links.txt\n'}
+[0.545953] (my_ros2_package) StdoutLine: {'line': b'writing entry points to my_ros2_package.egg-info/entry_points.txt\n'}
+[0.546049] (my_ros2_package) StdoutLine: {'line': b'writing requirements to my_ros2_package.egg-info/requires.txt\n'}
+[0.546124] (my_ros2_package) StdoutLine: {'line': b'writing top-level names to my_ros2_package.egg-info/top_level.txt\n'}
+[0.547307] (my_ros2_package) StdoutLine: {'line': b"reading manifest file 'my_ros2_package.egg-info/SOURCES.txt'\n"}
+[0.547811] (my_ros2_package) StdoutLine: {'line': b"writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'\n"}
+[0.548723] (my_ros2_package) StdoutLine: {'line': b'running build_ext\n'}
+[0.548873] (my_ros2_package) StdoutLine: {'line': b'Creating /ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my-ros2-package.egg-link (link to .)\n'}
+[0.549456] (my_ros2_package) StdoutLine: {'line': b'Installing my_node_exe script to /ros2_ws/install/my_ros2_package/lib/my_ros2_package\n'}
+[0.549655] (my_ros2_package) StdoutLine: {'line': b'\n'}
+[0.549711] (my_ros2_package) StdoutLine: {'line': b'Installed /ros2_ws/build/my_ros2_package\n'}
+[0.549784] (my_ros2_package) StdoutLine: {'line': b'running symlink_data\n'}
+[0.549856] (my_ros2_package) StdoutLine: {'line': b'creating /ros2_ws/install/my_ros2_package/share/my_ros2_package/launch\n'}
+[0.549935] (my_ros2_package) StdoutLine: {'line': b'symbolically linking /ros2_ws/build/my_ros2_package/launch/my_launch_file.launch.py -> /ros2_ws/install/my_ros2_package/share/my_ros2_package/launch\n'}
+[0.570042] (my_ros2_package) CommandEnded: {'returncode': 0}
+[0.579151] (my_ros2_package) JobEnded: {'identifier': 'my_ros2_package', 'rc': 0}
+[0.579664] (-) EventReactorShutdown: {}

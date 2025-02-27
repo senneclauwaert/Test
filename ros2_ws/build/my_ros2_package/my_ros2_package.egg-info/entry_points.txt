@@ -1,0 +1,4 @@
+[console_scripts]
+navigation_node = my_ros2_package.navigation_node:main
+segmentation_node = my_ros2_package.segmentation_node:main
+

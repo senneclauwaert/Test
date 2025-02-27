@@ -1,0 +1,27 @@
+
+services:
+  ros2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ros2_humble
+    volumes:
+      - ./:/ros2_ws
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    # This command will:
+    # 1. Source the ROS2 Humble environment
+    # 2. Build the workspace with colcon
+    # 3. Source the local install setup file
+    # 4. Launch the ROS2 launch file
+    command: >
+      bash -c "source /opt/ros/humble/setup.bash &&
+               cd /ros2_ws &&
+               colcon build --symlink-install &&
+               source install/setup.bash &&
+               ros2 launch my_ros2_package my_launch_file.launch.py"
